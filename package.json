@@ -1,0 +1,32 @@
+{
+  "name": "data-factory-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:mock": "set VITE_API_MODE=mock&& vite",
+    "dev:real": "set VITE_API_MODE=real&& vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/x6": "^2.19.2",
+    "@antv/x6-plugin-dnd": "^2.1.1",
+    "@antv/x6-plugin-selection": "^2.2.2",
+    "@antv/x6-plugin-snapline": "^2.1.7",
+    "@antv/x6-vue-shape": "^2.1.2",
+    "@primevue/themes": "^4.5.4",
+    "axios": "^1.7.9",
+    "dagre": "^0.8.5",
+    "marked": "^18.0.3",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.5.5",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
