@@ -27,6 +27,12 @@ const routes = [
     meta: { title: '任务管理' }
   },
   {
+    path: '/component',
+    name: 'ComponentManage',
+    component: () => import('../views/component/ComponentManage.vue'),
+    meta: { title: '组件管理' }
+  },
+  {
     path: '/task/edit/:id?',
     name: 'TaskEditor',
     component: () => import('../views/task/TaskEditor.vue'),
